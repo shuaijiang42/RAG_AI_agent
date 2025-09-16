@@ -1,0 +1,15 @@
+Permission Name,Description,Module/Feature,Default Roles,Notes
+read_data,Allows reading user data and input,Natural Language Processing,User; Admin,Required for basic AI interactions
+write_data,Allows modifying or saving user data,Natural Language Processing,Admin,Grants editing capabilities
+access_api,Allows API access for external apps,API Access,Developer; Admin,Enables integration with third-party apps
+manage_users,Allows managing user accounts and roles,Security & Privacy,Admin,High-level permission for user control
+execute_inference,Allows running AI model inference,Image Recognition; NLP; Chatbot Integration,User; Admin,Core for processing AI tasks
+configure_settings,Allows changing system configuration,Security & Privacy,Admin,Restricted to trusted users only
+view_logs,Allows viewing system and usage logs,Security & Privacy; API Access,Admin; Auditor,Important for debugging and audits
+generate_reports,Allows creating data and usage reports,Data Visualization,User; Admin,Helps monitor AI tool usage
+upload_files,Allows uploading files for processing,Image Recognition; NLP,User,Used for image and text inputs
+delete_data,Allows deleting stored data,Natural Language Processing; Security & Privacy,Admin,Restricted due to risk of data loss
+use_premium_features,Allows access to Pro and Enterprise features,All Pro/Enterprise modules,Pro User; Enterprise User,Enables paid advanced features
+manage_billing,Allows managing subscription and payments,Billing,Admin,Restricted to finance or admin users
+access_speech_modules,Allows use of Speech-to-Text and Text-to-Speech,Speech Modules,User; Admin,Core for audio processing features
+moderate_content,Allows filtering and moderating generated content,Chatbot Integration; NLP,Moderator; Admin,Ensures content safety and compliance
